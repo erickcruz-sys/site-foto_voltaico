@@ -1,0 +1,82 @@
+
+html, body {
+
+text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  background-color: white;
+  color: black;
+
+
+
+}
+
+
+h1 {
+    padding-top: 200px; 
+}
+section {
+
+}
+
+header {
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+
+
+}
+
+
+.nav-header {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+
+.nav-header a {
+text-decoration: none;
+  color: white;
+ padding: 10px;
+}
+
+.nav-header a:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+
+    button, input {
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+
+    label {
+    
+
+        font-weight: 30px;
+    padding: 20px;
+    
+    }
+    
+    #resultado {
+    
+    margin-top: 20px;
+        font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    
+    text-align: center;
+    }

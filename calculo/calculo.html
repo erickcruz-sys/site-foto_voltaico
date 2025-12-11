@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/cal.js"defer></script>
+</head>
+<body>
+ <header>
+        <div>
+            <nav class="nav-header">
+                <a href="../index.html">Placa Solar</a>
+                <a href="#post-comp">Arduino</a>
+            </nav>
+        </div>
+    </header>
+
+
+      
+    <h1>Descubra seu consumo em kw</h1>
+
+
+<label for="kw">Digite a potência de sua placa</label><br>
+<input type="number" id="kw"><br><br>
+
+<label for="irradiacao">Digite a irradiação diária</label><br>
+<input type="number" id="irradiacao"><br><br>
+
+<label for="dias">Digite os dias do mês</label><br>
+<input type="number" id="dias"><br><br>
+
+<label for="efi">Digite a eficiência do sistema</label><br>
+<input type="number" id="efi"><br><br>
+
+<button onclick="main()">Converter</button><br>
+<br>
+
+<div id="result"> </div>
+
+
+
+</body>
+</html>
